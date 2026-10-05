@@ -31,8 +31,8 @@ image (B, 3, 32, 32)
 | MLP hidden size | 1024 |
 | Depth | 6 |
 | Dropout | 0.1 |
-| Epochs ⚠️ | 50 |
-| Batch size ⚠️ | 128 |
+| Epochs | 50 |
+| Batch size | 128 |
 | Optimizer | AdamW, lr 1e-3, weight decay 0.05 |
 | Schedule | 5 epochs linear warmup, then cosine decay |
 | Loss | Cross-entropy, label smoothing 0.1 |
