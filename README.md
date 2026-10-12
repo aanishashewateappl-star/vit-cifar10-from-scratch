@@ -46,4 +46,10 @@ image (B, 3, 32, 32)
 
 ## Reference
 
-Dosovitskiy et al., *An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale*, 2020.# vit-cifar10-from-scratch
+## References & Acknowledgments
+
+- Dosovitskiy et al., *An Image is Worth 16x16 Words* (2020), arXiv:2010.11929
+- Vaswani et al., *Attention Is All You Need* (2017)
+- Harvard NLP, *The Annotated Transformer*: multi-head attention structure
+- `timm` / `vit-pytorch`: patch embedding and initialization conventions
+- Loshchilov & Hutter, *AdamW* (2019) and *SGDR* (2016): optimizer and cosine schedule
